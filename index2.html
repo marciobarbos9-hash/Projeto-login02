@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="html2.style.css">
+    
+</head>
+<body>
+    
+    <div class="cadastro">
+
+        <h1>Cadastre-se</h1>
+        <form action="cadastro.php">
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome" required placeholder="Nome">
+            <br>
+            <label for="iemail">E-mail</label>
+            <input type="email" name="email" id="iemail" required placeholder="E-mail">
+            <br>
+            <label for="isenha">Senha</label>
+            <input type="password" name="senha" id="isenha" required minlength="4" maxlength="8" placeholder="Senha">
+            <br>
+            <label for="iconfirmaçao">Confirme sua senha</label>
+            <input type="password" name="confirmaçao" id="iconfirmaçao" required minlength="4" maxlength="8" placeholder="Confirme sua senha">
+            
+            <label for="itel">Telefone</label>
+            <input type="tel" name="tel" id="itel"  placeholder="+55(00)00000-0000" required minlength="16" maxlength="16" >
+            <br>
+            <label for="idata">Data de nascimento</label>
+            <input type="date" name="data" id="idata" required>
+            <br>
+            <select name="genero" id="igenero" required>
+            <option value="">Genero</option>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outros">Outros</option>
+            </select>
+            <input class="submit" type="submit" value="Entrar">
+        
+</select>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,71 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: black;
+   background-image: url(pexels-thales13-36271430.jpg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+h1{
+    color: rgba(255, 255, 255, 0.466);
+    
+}
+.container{
+    background-image: linear-gradient(to top, rgb(255, 115, 0) ,rgb(119, 0, 255));
+   background-repeat: no-repeat;
+   text-align: left;
+   width: 500px;
+   height: 500px;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content:center ;
+   align-items:center ;
+}
+
+.conteudo{
+    margin:50px;
+    
+}
+label{
+    color: rgba(255, 255, 255, 0.486);
+    font-size: 1.5em;
+    padding: 20px;
+    
+}
+input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 400px;
+}
+.botao{
+    display: flex;
+     justify-content:center ;
+   align-items:center ;
+   padding: 10px;
+
+}
+.submit:hover{
+    background-color:rgb(255, 115, 0) ;
+}
+button{
+    border: none;
+   border-radius: 10px;
+}
+a:hover{
+    color:rgb(255, 115, 0) ;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
