@@ -82,6 +82,7 @@ a{
    align-items: center;
    background-color: black;
    background-image: url(pexels-thales13-36271430.jpg);
+   background-attachment: fixed;
     background-position: center bottom;
     background-repeat: no-repeat;
 }
